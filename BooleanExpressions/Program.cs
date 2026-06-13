@@ -1,11 +1,3 @@
-﻿//string value1 = "a ";
-//string value2 = " A";
-//Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
-
-//string pangram = "The quick brown fox jumps over the lazy dog.";
-//Console.WriteLine(pangram.Contains("fox"));
-//Console.WriteLine(pangram.Contains("cow"));
-
-int saleAmount = 1001;
-int discount = saleAmount > 1000 ? 100 : 50;
-Console.WriteLine($"Discount: {discount}");
+﻿//Cara o Cruz
+bool moneda = Random.Shared.Next(2) == 0;
+Console.WriteLine(moneda == true ? "Cara" : "Sello");
